@@ -1,10 +1,20 @@
-const links = document.querySelectorAll(".navbar a");
-const currentPage = window.location.pathname.split("/").pop();
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.navbar a');
 
-links.forEach(link => {
-    const linkPage = link.getAttribute("href");
+window.addEventListener('scroll', () => {
+  let current = '';
 
-    if (linkPage === currentPage) {
-      link.classList.add("active");
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 80;
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute('id');
     }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${current}`) {
+      link.classList.add('active');
+    }
+  });
 });
