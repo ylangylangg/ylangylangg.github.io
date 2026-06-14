@@ -55,9 +55,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   max-width: 800px;
-  width: fit-content;
+  width: 100%;
   margin: 0 auto;
 }
 
