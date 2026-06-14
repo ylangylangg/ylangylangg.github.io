@@ -110,16 +110,22 @@ body {
 
 /* Skill pill */
 .skill {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 10px 14px;
   border-radius: 999px;
+
   background: rgba(255, 255, 255, 0.15);
   color: #fff;
   font-size: 0.95rem;
   font-weight: 500;
+
   border: 1px solid rgba(255, 255, 255, 0.25);
   transition: all 0.2s ease;
   backdrop-filter: blur(6px);
+  text-align: center;
 }
 
 /* Hover effect */
