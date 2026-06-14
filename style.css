@@ -78,8 +78,8 @@ body {
 }
 
 .profile-pic {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid white;
