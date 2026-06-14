@@ -116,17 +116,18 @@ body {
   align-items: center;
   justify-content: center;
 
-  padding: 10px 14px;
+  padding: 10px 20px;
   border-radius: 999px;
 
   background: rgba(255, 255, 255, 0.15);
   color: #fff;
   font-size: 0.95rem;
   font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
 
   border: 1px solid rgba(255, 255, 255, 0.25);
   transition: all 0.2s ease;
-  text-align: center;
 }
 
 /* Hover effect */
