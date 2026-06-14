@@ -144,7 +144,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   text-decoration: none;
   padding: 16px 20px;
   border-radius: 10px;
@@ -159,9 +158,12 @@ body {
 }
 
 .contact-card:hover {
+  background: #0a2666;
+  border-color: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
+
 
 /* Label */
 .contact-card .label {
