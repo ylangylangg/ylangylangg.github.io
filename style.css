@@ -94,13 +94,13 @@ body {
 }
 
 /* ── Skills ── */
-#skills {
+#skills-section {
   text-align: center;
   padding: 80px 20px;
   background: var(--bg-base);
 }
 
-#skills h2 {
+#skills-section h2 {
   font-size: 2em;
   margin-bottom: 30px;
   color: var(--text-primary);
