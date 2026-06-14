@@ -1,37 +1,30 @@
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.navbar a');
-
-let currentActive = '';
-
-// Click handler
-navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    navLinks.forEach(l => l.classList.remove('active'));
-    link.classList.add('active');
-
-    currentActive = link.getAttribute('href');
-  });
-});
-
-// Scroll handler
 window.addEventListener('scroll', () => {
   let current = '';
 
   sections.forEach(section => {
-    const sectionTop = section.offsetTop - 80;
+    const top = section.offsetTop - 80;
+    const height = section.offsetHeight;
 
-    if (window.scrollY >= sectionTop) {
-      current = section.getAttribute('id');
+    if (
+      window.scrollY >= top &&
+      window.scrollY < top + height
+    ) {
+      current = section.id;
     }
   });
 
-  if (!current) return;
+  const sectionMap = {
+    about: 'home',
+    skills: 'home',
+    experience: 'home'
+  };
+
+  current = sectionMap[current] || current;
 
   navLinks.forEach(link => {
-    link.classList.remove('active');
-
-    if (link.getAttribute('href') === `#${current}`) {
-      link.classList.add('active');
-    }
+    link.classList.toggle(
+      'active',
+      link.getAttribute('href') === `#${current}`
+    );
   });
 });

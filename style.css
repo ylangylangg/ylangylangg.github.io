@@ -78,14 +78,32 @@ body {
   max-width: 400px;
   color: var(--text-secondary);
 }
+
+.home .role {
+  font-size: 0.9em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
 .home h1 {
   font-size: 2.5em;
   color: var(--text-primary);
+  margin: 0;
 }
+
 /* Pink = identity highlight (name) */
 .home .highlight {
   color: var(--pink);
 }
+
+.home .tagline {
+  font-size: 1.1em;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
+
 /* Blue = interactive link */
 .home a {
   color: var(--blue);
@@ -94,13 +112,13 @@ body {
 }
 
 /* ── Skills ── */
-#skills-section {
+#skills {
   text-align: center;
   padding: 80px 20px;
   background: var(--bg-base);
 }
 
-#skills-section h2 {
+#skills h2 {
   font-size: 2em;
   margin-bottom: 30px;
   color: var(--text-primary);
