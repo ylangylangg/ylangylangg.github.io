@@ -1,0 +1,23 @@
+/* ── Design Tokens ───────────────────────────────────*/
+
+:root {
+  /* Backgrounds */
+  --bg-base:        #282828;   /* default page / section background */
+  --bg-section-alt: #222222;   /* subtle section separation if needed */
+
+  /* Accent — Pink: structure & identity */
+  --pink:           #e1799f;   /* navbar, brand, primary buttons, active states */
+
+  /* Accent — Blue: interaction & feedback */
+  --blue:           #6ec6ff;   /* hover states, focus rings, link highlights */
+
+  /* Text */
+  --text-primary:   #f5f5f5;   /* headings, main content */
+  --text-secondary: #b8b8b8;   /* descriptions, captions, meta */
+
+  /* Utility */
+  --white:          #ffffff;
+  --radius-pill:    999px;
+  --radius-card:    12px;
+  --transition:     0.2s ease;
+}
