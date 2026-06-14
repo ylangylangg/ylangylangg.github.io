@@ -13,9 +13,9 @@ body {
 }
 
 /* ── Navbar ──
-   Pink = structure & identity */
+   Blue = structure & identity */
 .navbar {
-  background: var(--pink);
+  background: var(--blue);
   padding: 15px;
   text-align: center;
   position: fixed;
@@ -39,7 +39,7 @@ body {
   font-size: 1em;
   transition: color var(--transition);
 }
-/* Blue = hover/interaction */
+/* Pink = hover/interaction */
 .navbar a:hover,
 .navbar a.active {
   color: var(--bg-base);
@@ -93,9 +93,9 @@ body {
   margin: 0;
 }
 
-/* Pink = identity highlight (name) */
+/* Blue = identity highlight (name) */
 .home .highlight {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .home .tagline {
@@ -104,9 +104,9 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Blue = interactive link */
+/* Pink = interactive link */
 .home a {
-  color: var(--blue);
+  color: var(--pink);
   text-decoration: underline;
   font-weight: 400;
 }
@@ -150,11 +150,11 @@ body {
   transition: all var(--transition);
 }
 
-/* Blue = hover/interaction */
+/* Pink = hover/interaction */
 .skill:hover {
   transform: translateY(-3px);
-  border-color: var(--blue);
-  color: var(--blue);
+  border-color: var(--pink);
+  color: var(--pink);
 }
 
 /* ── Projects ── */
@@ -190,20 +190,20 @@ body {
   transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
 }
 
-/* Blue = hover/interaction */
+/* Pink = hover/interaction */
 .project-card:hover {
   transform: translateY(-4px);
-  border-color: var(--blue);
+  border-color: var(--pink);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Pink = structural tag label */
+/* Blue = structural tag label */
 .project-tag {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .project-title {
@@ -224,12 +224,12 @@ body {
   margin-top: 4px;
 }
 
-/* Blue = interactive link */
+/* Pink = interactive link */
 .project-link {
   font-size: 0.85rem;
   font-weight: 700;
   text-decoration: none;
-  color: var(--blue);
+  color: var(--pink);
   transition: opacity var(--transition);
 }
 
@@ -277,9 +277,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Blue = hover/interaction */
+/* Pink = hover/interaction */
 .contact-card:hover {
-  border-color: var(--blue);
+  border-color: var(--pink);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(-2px);
 }
@@ -300,17 +300,17 @@ body {
   color: var(--text-primary);
 }
 
-/* Pink = structural arrow (identity element) */
+/* Blue = structural arrow (identity element) */
 .arrow {
   font-size: 1.1rem;
-  color: var(--pink);
+  color: var(--blue);
   opacity: 0.8;
   transition: transform var(--transition), color var(--transition);
 }
 
-/* Blue = arrow hover (interaction feedback) */
+/* Pink = arrow hover (interaction feedback) */
 .contact-card:hover .arrow {
   transform: translateX(5px);
-  color: var(--blue);
+  color: var(--pink);
   opacity: 1;
 }
