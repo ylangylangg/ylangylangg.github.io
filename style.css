@@ -111,3 +111,65 @@ body {
   display: block;
   margin-bottom: 0.5rem;
 }
+
+/* Contact Section */
+#contact {
+  background: #282828;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#contact p {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  color: #759acd;
+  line-height: 1.6;
+}
+
+/* Contact Card */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #021a52;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  outline: none;
+}
+
+/* Button */
+.contact-container button {
+  background: #e1799f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-container button:hover {
+  background: #ff4081;
+  transform: translateY(-2px);
+}
