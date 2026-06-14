@@ -88,28 +88,43 @@ body {
 /* Skills Section */
 #skills {
   text-align: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
   background: #e1799f;
 }
+
 #skills h2 {
   font-size: 2em;
   margin-bottom: 30px;
+  color: #fff;
 }
 
+/* Grid */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.skills-grid div {
-  text-align: center;
+/* Skill pill */
+.skill {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.2s ease;
+  backdrop-filter: blur(6px);
 }
 
-.skills-grid iconify-icon {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 0.5rem;
+/* Hover effect */
+.skill:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 /* Contact Section */
