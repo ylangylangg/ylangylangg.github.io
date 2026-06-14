@@ -41,18 +41,32 @@ body {
   border-bottom: 2px solid #ff4081;
 }
 
-
 /* Home Section */
 .home {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 100px 50px;
+  justify-content: center;
   background: #282828;
-  text-align: center;
+  padding: 60px 50px;
 }
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
 .home .intro {
   max-width: 600px;
   color:#759acd;
@@ -68,21 +82,6 @@ body {
   color: #e1799f;
   text-decoration: underline;
   font-weight: 400;
-}
-
-.home-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px;
-}
-
-.profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid white;
 }
 
 /* Skills Section */
