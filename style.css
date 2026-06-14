@@ -48,6 +48,7 @@ body {
   justify-content: center;
   background: #282828;
   padding: 60px 50px;
+  min-height: 100vh;
 }
 
 .home-container {
