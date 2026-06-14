@@ -42,8 +42,8 @@ body {
 }
 
 
-/* Welcome Section */
-.welcome {
+/* Home Section */
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,30 +53,37 @@ body {
   background: #282828;
   text-align: center;
 }
-.welcome .intro {
+.home .intro {
   max-width: 600px;
   color:#759acd;
 }
-.welcome h1 {
+.home h1 {
   font-size: 2.5em;
 }
 
-.welcome .highlight {
+.home .highlight {
   color: #e1799f;
 }
-.welcome a {
+.home a {
   color: #e1799f;
   text-decoration: underline;
   font-weight: 400;
 }
 
-/* 
-.profile-pic img {
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.profile-pic {
   width: 220px;
   height: 220px;
   border-radius: 50%;
+  object-fit: cover;
   border: 5px solid white;
-} */
+}
 
 /* Skills Section */
 #skills {
