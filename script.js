@@ -14,10 +14,11 @@ window.addEventListener('scroll', () => {
   });
 
   const sectionMap = {
-    about: 'home',
-    skills: 'home',
-    experience: 'home'
+    home: 'home',
+    skills: 'skills',
+    projects : 'projects'
   };
+  
 
   current = sectionMap[current] || current;
 

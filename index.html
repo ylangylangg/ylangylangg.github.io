@@ -18,13 +18,13 @@
   <nav class="navbar">
     <ul>
       <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Home Section -->
-  <section id="home" class="home">
+  <!-- <section id="home" class="home">
     <div class="home-container">
 
       <div class="profile">
@@ -37,18 +37,40 @@
         <p class="tagline">Turning data into insights.</p>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  
+  <section id="home" class="home">
+  <div class="intro">
+    <h1><span class="highlight">Lija</span> Ang</h1>
+    <p>Data analyst turning raw data into decisions with SQL, Python, and BI tools. 
+    Currently seeking data analyst and adjacent opportunities.</p>
+  
+    <div class="social-links">
+      <a href="mailto:lijaang8@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/lijaang/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/ylangylangg" target="_blank" rel="noopener">GitHub</a>
+      </div>
+  
+  </div>
+</section>
 
   <!-- Skills Section -->
   <section id="skills">
-    <h2>Tools & Technologies</h2>
+    <h2>Skills</h2>
 
     <div class="skills-grid">
       <div class="skill">SQL (PostgreSQL)</div>
       <div class="skill">Python (Pandas, NumPy, Scikit-learn)</div>
-      <div class="skill">Excel</div>
+      <div class="skill">R Basics (dplyr, ggplot2, mlr3)</div>
+      <div class="skill">MS Excel (lookups, pivot tables)</div>
       <div class="skill">Tableau</div>
-      <div class="skill">Cloud fundamentals (AWS, Huawei Cloud)</div>
+      <div class="skill">PowerBI</div>
+      <div class="skill">Git, GitHub</div>
+      <div class="skill">GenAI & RAG</div>
+      <div class="skill">Cloud Basics (AWS, Huawei Cloud)</div>
+      <div class="skill">Automation Basics (Selenium, Power Automate)</div>
+      <div class="skill">Web Dev Basics (HTML, CSS, JavaScript)</div>
     </div>
   </section>
 
@@ -60,48 +82,88 @@
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-tag">Python · Scikit-learn</span>
+        <span class="project-tag">Python · PostgreSQL · PowerBI</span>
       </div>
-      <h3 class="project-title">Customer Churn Prediction</h3>
+      <h3 class="project-title">Customer RFM Segmentation & <br>Cohort Analysis</h3>
       <p class="project-desc">
-        Built a classification model to predict churn for a telecom dataset. Achieved 87% accuracy using a Random Forest with hyperparameter tuning via GridSearchCV.
+        Preprocessed 400k+ transactions using Python and PostgreSQL, applying SQL CTEs and views to segment customers and analyse value and retention patterns. Used PowerBI for visualisations.
       </p>
       <div class="project-links">
-        <a href="#" class="project-link">GitHub →</a>
+        <a href="https://github.com/ylangylangg/customer-segmentation-cohort-analysis" class="project-link" target="_blank" rel="noopener">View GitHub →</a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-tag">SQL · Tableau</span>
+        <span class="project-tag">Python - Regression & Clustering </span>
       </div>
-      <h3 class="project-title">Sales Performance Dashboard</h3>
+      <h3 class="project-title">Rental Price Prediction & Market Segmentation</h3>
       <p class="project-desc">
-        Queried a PostgreSQL database to surface KPIs across regions and time periods, then visualised trends in an interactive Tableau dashboard for stakeholder reporting.
+        Processed 10k+ rental records, evaluating 5 linear and tree-based models for price prediction with feature engineering (R²=0.67), alongside K-Means clustering for market segmentation.
       </p>
       <div class="project-links">
-        <a href="#" class="project-link">View Dashboard →</a>
+        <a href="https://github.com/ylangylangg/lse-machine-learning-coursework/blob/main/rent.ipynb" class="project-link" target="_blank" rel="noopener">View GitHub →</a>
+      </div>
+    </div>
+
+    
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-tag">Python - Classification </span>
+      </div>
+      <h3 class="project-title">SMS Spam Classification</h3>
+      <p class="project-desc">
+        Preprocessed an imbalanced SMS dataset using tokenisation, lemmatisation and TF-IDF, comparing four models; Logistic Regression achieved 0.928 F1-score and 0.967 PR-AUC.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/ylangylangg/lse-machine-learning-coursework/blob/main/sms.ipynb" class="project-link" target="_blank" rel="noopener">View GitHub →</a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-tag">Python · Pandas · NumPy</span>
+        <span class="project-tag">Python (Selenium) - Web Scraping </span>
       </div>
-      <h3 class="project-title">EDA: Global Cost of Living</h3>
+      <h3 class="project-title">Healthcare Jobs Analysis for FDM Group</h3>
       <p class="project-desc">
-        Cleaned and explored a multi-country dataset to uncover patterns in housing, food, and transport costs. Produced visual summaries with Matplotlib and Seaborn.
-      </p>
+        Conducted data-driven healthcare market research on Glassdoor and SingHealth, analysing job demand, salaries and skill gaps to identify workforce trends and support stakeholder's course planning.
       <div class="project-links">
-        <a href="#" class="project-link">GitHub →</a>
+        <a href="https://github.com/ylangylangg/healthcarejobs_analysis" class="project-link" target="_blank" rel="noopener">View GitHub →</a>
       </div>
     </div>
 
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-tag">Tableau - 5 interactive dashboards</span>
+      </div>
+      <h3 class="project-title">Superstore Performance & Profitability Analysis</h3>
+      <p class="project-desc">
+        Analysed 51k+ transactions over 4 years, built dashboards uncovering trends in sales, customer segments and regional performance. Identified key profit drivers and inefficiencies, with what-if forecasting.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/ylangylangg/tableau-biz-analytics-report" class="project-link" target="_blank" rel="noopener">View Dashboards →</a>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-tag">Python </span>
+      </div>
+      <h3 class="project-title">Singapore Artisanal Cheese Market Analysis </h3>
+      <p class="project-desc">
+        🚧 In Progress (intense cleaning and regex handling ongoing)
+      </p>
+      <div class="project-links">
+        <a href="https://youtube.com/shorts/GkZgDTkgNtU?si=NgaJnMbrmlsbl41D" class="project-link" target="_blank" rel="noopener">🧀</a>
+      </div>
+    </div>
+  
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
+<!-- <section id="contact">
   <div class="container">
 
     <div class="section-header">
@@ -130,4 +192,4 @@
     </div>
 
   </div>
-</section>
+</section> -->
