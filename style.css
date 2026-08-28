@@ -97,7 +97,7 @@ body {
 
 /* Blue = identity highlight (name) */
 .home .highlight {
-  color: var(--blue);
+  color: var(--pink);
 }
 
 .home .tagline {
