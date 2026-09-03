@@ -3,7 +3,7 @@
 :root {
   /* Backgrounds */
   --bg-base:        #282828;   /* default page / section background */
-  --bg-section-alt: #222222;   /* subtle section separation if needed */
+  --bg-section-alt: #222222;   /* subtle section separation*/
 
   /* Accent — Blue: structure & identity */
   --blue:           #6ec6ff;   /* navbar, brand, primary buttons, active states */
